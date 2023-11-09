@@ -3,11 +3,11 @@ import "./Header.scss";
 
 function Header() {
   return (
-    <header>
+    <header className="button_header">
       <h1>Le blog sur les plus beaux abris-bus de France</h1>
       <nav>
         <ul>
-          <li>Home</li>
+          <li className="item_header">Home</li>
           <li>Articles</li>
           <li>Contact</li>
           <ProfileMenu />
